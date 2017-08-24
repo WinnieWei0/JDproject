@@ -441,6 +441,17 @@ main{
 }
 /*中间主体结束*/
 
+/*京东秒杀开始*/
+.seckill{
+    height: 305px;
+    margin-top: 10px;
+}
+.seckill .sk-top{
+    height: 55px;
+    background:url("../images/seckill_hd.png") no-repeat 0 0;
+}
+/*京东秒杀开始*/
+
 /*页脚开始*/
 footer{
     height: 525px;
