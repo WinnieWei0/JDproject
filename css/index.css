@@ -268,9 +268,176 @@ main{
     height: 115px;
     border-bottom: 1px solid #e6e6e6;
 }
+.main-right-top .info>a{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    background: url("../images/sprite_userinfo@1x.png") no-repeat -70px 0;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    text-align: center;
+}
+.main-right-top .info img{
+    width: 40px;
+    height: 40px;
+    border-radius: 45%;
+}
+.main-right-top .info p:nth-child(2){
+    width: 94px;
+    height: 20px;
+    margin-top: 21px;
+    margin-right: 23px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main-right-top .info p:nth-child(3){
+    width: 117px;
+    margin-top: -10px;
+    text-align: left;
+}
+.main-right-top .procit{
+    height: 24px;
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+}
+.main-right-top .procit a:hover div{
+    background-color: #e01222;
+    color: #ffffff;
+}
+.main-right-top .procit div{
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    color: #e01222;
+    border: 2px solid #e01222;
+    text-align: center;
+}
+.main-right-top .procit div:last-child{
+    margin-left: 10px;
+}
 .main-right-center{
     height: 154px;
     border-bottom: 1px solid #e7e7e7;
+}
+.main-right-center .mrc-top{
+    width: 162px;
+    height: 19px;
+    color: #333;
+    /*background-color: lightblue;*/
+    margin-left: 13px;
+    padding-top: 7px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.main-right-center .mrc-top a{
+    width: 38px;
+    height: 26px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/*.main-right-center .mrc-top a:hover{
+    border-bottom: 2px solid #db192b;
+}*/
+.mrc-top a:last-child{
+    position:absolute;
+    right: 0;
+}
+.mrc-top a div{
+    width: 28px;
+    height: 2px;
+    background-color: #db192b;
+    margin-top: -1px;
+}
+.main-right-center .mrc-top span{
+    width: 1px;
+    height: 17px;
+    display: inline-block;
+    background-color: #dfe0e1;
+    margin-left: 12px;
+    margin-right: 15px;
+}
+.mrc-bottom ul{
+    padding-top: 19px;
+    padding-left: 15px;
+}
+.mrc-bottom ul li{
+    height: 24px;
+}
+.main-right-bottom{
+    overflow: hidden;
+}
+.main-right-bottom ul{
+    width: 192px;
+    margin-top: -1px;
+}
+.main-right-bottom li{
+    width: 47px;
+    height: 69px;
+    border-top: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    float: left;
+}
+.main-right-bottom li a{
+    width: 47px;
+    height: 69px;
+    display: block;
+    position: relative;
+}
+.main-right-bottom i{
+    width: 27px;
+    height: 27px;
+    display: block;
+    background: url("../images/sprite_fs@1x.png") no-repeat 0 0;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform:translateX(-50%);
+}
+.main-right-bottom span{
+    width: 100%;
+    display: block;
+    text-align: center;
+    position: absolute;
+    bottom: 12px;
+}
+.main-right-bottom li:nth-child(1) i{
+    background-position: 0 -89px;
+}
+.main-right-bottom li:nth-child(2) i{
+    background-position: -2px -45px;
+}
+.main-right-bottom li:nth-child(3) i{
+    background-position: -43px -89px;
+}
+.main-right-bottom li:nth-child(4) i{
+    background-position: -86px 0;
+}
+.main-right-bottom li:nth-child(5) i{
+    background-position: -89px -47px;
+}
+.main-right-bottom li:nth-child(6) i{
+    background-position: 0 0;
+}
+.main-right-bottom li:nth-child(7) i{
+    background-position: -45px -48px;
+}
+.main-right-bottom li:nth-child(8) i{
+    background-position: -89px -89px;
+}
+.main-right-bottom li:nth-child(9) i{
+    background-position: right top;
+}
+.main-right-bottom  li:nth-child(10) i{
+    background-position: right -43px;
+}
+.main-right-bottom li:nth-child(11) i{
+    background-position: right -93px;
+}
+.main-right-bottom li:nth-child(12) i{
+    background-position: -44px top;
 }
 /*中间主体结束*/
 
